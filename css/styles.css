@@ -1,9 +1,10 @@
 body{
 font-family: "Roboto", sans-serif;
-color: #2E2F42;
+color: #434455;
 background-color: #ffffff;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
 a{
 text-decoration: none;
@@ -16,116 +17,104 @@ text-decoration: none;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 text-decoration: none;
-color: #2E2F42;
+color: #4d5ae5;
 font-weight: 700;
-line-height: 1.2;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.accent{
+    color: #2e2f42;
 }
 
 .studio{
 color: #2E2F42;
+font-weight: 500;
 }
 .studio:hover{
 color: #404BBF;
 }
+.studio:focus{
+color: #404bbf;
+}
 
-.portfolio{
-color: #2E2F42;
-}
-.portfolio:hover{
-color: #404BBF;
-}
 .contacts{
-color: #2E2F42;
+color: #434455;
+font-style: normal;
 }
 .contacts:hover{
 color: #404BBF;
 }
-.email{
-color: #434455;
-}
-.email:hover{
-color: #404BBF;
-}
-.email:focus{
+.contacts:focus{
 color: #404BBF;  
 } 
-.tel{
-color: #434455;
-}
-.tel:hover{
-color: #404BBF;
-}
-.tel:focus{
-color: #404BBF;
-}
+
 .main-page{
 color: #ffffff;
 background-color: #2E2F42;
+
+}
+.title{
 font-size: 56px;
 font-weight: 700;
-line-height: 1;
+line-height: 1.07;
+text-align: center;
 }
 .button{
 cursor: pointer;
-color: #ffffff;
 background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+.button:hover{
+    background-color: #404BBF;
+}
+.button:focus{
+    background-color: #404BBF;
 }
 .advantages{
 color: #2E2F42;
 background-color: #ffffff;
 }
-.strategy{
+.advantages-title{
 font-size: 20px;
 line-height: 1.2;
+font-weight: 500;
 }
-.punctuality{
-font-size: 20px;
-    line-height: 1.2;
+.paragraph{
+color: #434455;
+font-size: 16px;
 }
-.diligence{
-font-size: 20px;
-    line-height: 1.2;
-}
-.technologies{
-font-size: 20px;
-    line-height: 1.2;
-}
+
 .team{
 color: #2E2F42;
 background-color: #F4F4FD;
 }
 .our-team{
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
 font-weight: 700;
+text-align: center;
+text-transform: capitalize;
 }
-.team-photo{
+.team-list{
 background-color: #ffffff;
 }
-.guerrero{
+.team-photo{
 font-size: 20px;
 line-height: 1.2;
 font-weight: 500;
 }
-.ford{
-font-size: 20px;
-line-height: 1.2;
-font-weight: 500;
-}
-.garcia{
-font-size: 20px;
-line-height: 1.2;
-font-weight: 500;
-}
-.wilson{
-font-size: 20px;
-line-height: 1.2;
-font-weight: 500;
-}
+
 .portfolio-app{
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
 font-weight: 700;
+text-align: center;
+text-transform: capitalize;
 }
 .photo{
 font-size: 20px;
@@ -137,5 +126,18 @@ color: #F4F4FD;
 background-color: #2E2F42;
 }
 .logo-footer{
-color: #4D5AE5
+color: #4D5AE5;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.footer-span{
+    color: #f4f4fd;
+}
+.footer-paragraph{
+color: #E7E9FC; 
 }
